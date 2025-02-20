@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Главная страница</title>
-  <link rel="stylesheet" href="../../static/img/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../static/font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="../css/normalize.css" rel="stylesheet" type="text/css" />
   <link href="../css/base.css" rel="stylesheet" type="text/css" />
   <link href="../css/tempate.css" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
         <section class="header">
             <div class="header-logo">
                 <div class="logo">
-                    <a href=""><h1 class="name_site">shop<span class="logo">card</span></h1></a>
+                    <a href=""><h1 class="name-site">shop<span class="logo">card</span></h1></a>
                 </div>
                 <div class="transparent"></div>
                 <a href="" class="bin"><i class="fa fa-trash" aria-hidden="true"></i></a>
@@ -31,29 +31,70 @@
                 </form>
             </div>
             <div class="catalog">
-                <div class="type">Еда</div>
-                <div class="type">Одежда</div>
-                <div class="type">Инструменты</div>
-                <!-- Это заполнить -->
+                <a class="type">Еда</a>
+                <a class="type">Одежда</a>
+                <a class="type">Инструменты</a>
+                <a class="type">Игрушки</a>
+                <a class="type">Растения</a>
+                <a class="type">Электроника</a>
+                <a class="type">Обувь</a>
+                <a class="type">Косметика</a>
             </div>
         </section>
         <section class="recommendations">
             <div class="recommendations-div">
                 <div class="text-recomand">We picked some <span class="yellow">cool things</span> for you</div>
-                <div class="cards-recomend">
-                    <p class="recomend">We recommend you<p>
-                    
-                    <div class="cards">
-                        <div class="card">
-                            <!-- В продукт магаз -->
-                        </div>
+                <div class="cards">
+                    <p class="recomend">We recommend you</p>
+                    <div class="products">
+                        <a href="" class="card-a">
+                            <div class="products__card">
+                                <div class="card__image-block">
+                                    <img class="card__image" src="../../static/img/headphone.jpg" alt="картинка товара">
+                                </div>
+                                <div class="card__description">
+                                    <div class="card__meta">
+                                        <div class="card__rating">5</div>
+                                    </div>
+                                    <div class="card__name">Наушники</div>
+                                    <div class="card__cost">500 000</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="card-a">
+                            <div class="products__card">
+                                <div class="card__image-block">
+                                    <img class="card__image" src="../../static/img/headphone.jpg" alt="картинка товара">
+                                </div>
+                                <div class="card__description">
+                                    <div class="card__meta">
+                                        <div class="card__rating">5</div>
+                                    </div>
+                                    <div class="card__name">Наушники</div>
+                                    <div class="card__cost">500 000</div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="card-a">
+                            <div class="products__card">
+                                <div class="card__image-block">
+                                    <img class="card__image" src="../../static/img/headphone.jpg" alt="картинка товара">
+                                </div>
+                                <div class="card__description">
+                                    <div class="card__meta">
+                                        <div class="card__rating">5</div>
+                                    </div>
+                                    <div class="card__name">Наушники</div>
+                                    <div class="card__cost">500 000</div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-    
                 </div>
             </div>
         </section>
         <section class="advertisement">
-            <img class="advertisement-img"><img>
+            <img class="advertisement-img" src="../../static/img/advertisment.avif"><img>
         </section>
         <section class="slider">
             <p class="text-slider">Today's hot deals<p>
@@ -63,9 +104,9 @@
         </section>
         <section class="footer">
             <div class="footer">
-                <div class="header-logo">
+                <div class="header-logo footer">
                     <div class="logo">
-                        <h1 class="name_site"><span>shop<span>card</h1>
+                        <a href=""><h1 class="name-site">shop<span class="logo">card</span></h1></a>
                     </div>
                 </div>
                 <div class="menu">

@@ -1,20 +1,24 @@
+body{
+    font-family: 'Arial', sans-serif;
+}
 .site{
-    margin: 1vh 1.5vw;
+    margin: 1vh 5vw;
 }
 .header-logo{
     display: flex;
     align-items: center;
 }
-.name_site{
-    font-family: 'Impact', sans-serif;
-    font-weight: lighter;
+.name-site{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color:#e6a83c;
     font-size: 4.5vh;
 }
 .logo{
     color: #1e1e1e;
+    font-weight: 100;
 }
-a {
+a{
     text-decoration: none;
 }
 .transparent{
@@ -37,4 +41,11 @@ a {
     margin-right: 1vw;
     font-size: 4vh;
     color: #0d0d0d;
+}
+.footer{
+    border: none;
+}
+a:hover{
+    color: #e6a83c;
+    cursor: pointer;
 }
