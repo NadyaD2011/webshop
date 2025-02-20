@@ -1,0 +1,15 @@
+.search{
+    text-align: center;
+}
+.form-input{
+    border: 1.5px solid #ada8a8;
+    border-radius: 15px;
+    height: 5vh;
+    width: 40vw;
+    padding: 0 1.5vh;
+    font-size: 2.5vh;
+    font-family: 'Arial', sans-serif;
+}
+.form-input:focus {
+    border-color: #e6a83c;
+}

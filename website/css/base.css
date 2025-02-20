@@ -1,5 +1,5 @@
 .site{
-    margin: 2vh 1.5vw;
+    margin: 1vh 1.5vw;
 }
 .header-logo{
     display: flex;
@@ -14,7 +14,7 @@
 .logo{
     color: #1e1e1e;
 }
-a{
+a {
     text-decoration: none;
 }
 .transparent{
@@ -30,8 +30,8 @@ a{
     font-size: 4vh;
 }
 .header-logo{
-    border-bottom: solid 3px #706e6e;
-    margin-bottom: 3vh;
+    border-bottom: solid 0.4vh #ada8a8;
+    margin-bottom: 2.5vh;
 }
 .bin{
     margin-right: 1vw;
