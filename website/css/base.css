@@ -1,0 +1,40 @@
+.site{
+    margin: 2vh 1.5vw;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.name_site{
+    font-family: 'Impact', sans-serif;
+    font-weight: lighter;
+    color:#e6a83c;
+    font-size: 4.5vh;
+}
+.logo{
+    color: #1e1e1e;
+}
+a{
+    text-decoration: none;
+}
+.transparent{
+    flex-grow: 1;
+}
+.text-sing-in{
+    color: #1e1e1e;;
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5vh;
+}
+.fa-user-circle{
+    margin-right: 0.5vw;
+    font-size: 4vh;
+}
+.header-logo{
+    border-bottom: solid 3px #706e6e;
+    margin-bottom: 3vh;
+}
+.bin{
+    margin-right: 1vw;
+    font-size: 4vh;
+    color: #0d0d0d;
+}
