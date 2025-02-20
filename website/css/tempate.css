@@ -35,6 +35,7 @@
     align-items: center;
     justify-content: center;
     margin: 2.5vh 0px;
+    font-size: 2.5vh;
 }
 .type:not(:last-child){
     margin-right: 1.5vw;
@@ -57,8 +58,8 @@
     padding: 1.5vh 1vw;
     border: solid 2px #c1bdbd;
     position: relative;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 3vh;
+    margin-bottom: 3vh;
     text-decoration: none;
 }
 .card__image-block {
@@ -71,27 +72,27 @@
     height: 100%;
 }
 .card__meta {
-    font-size: 14px;
+    font-size: 2.5vh;
     color: #a6a6a6;
-    margin-bottom: 10px;
+    margin-bottom: 1.5vh;
     display: flex;
     justify-content: space-between;
 }
 .card__name {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 2.5vh;
+    margin-bottom: 1.5vh;
 }
 .card__description {
-    padding: 10px;
+    padding: 1.5vh;
     height: 50%;
     box-sizing: border-box;
     position: relative;
 }
 .card__cost {
     position: absolute;
-    bottom: 10px;
+    bottom: 1.5vh;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 3.5vh;
     display: flex;
     align-items: center;
 }
@@ -103,17 +104,19 @@
     content: "";
     background-image: url("../../static/img/star.svg");
     display: block;
+    background-repeat: no-repeat;
     background-size: contain;
-    width: 18px;
-    height: 18px;
+    width: 1.5vw;
+    height: 3vh;
 }
 .card__cost::after {
     content: "";
     background-image: url("../../static/img/rub.svg");
     display: block;
+    background-repeat: no-repeat;
     background-size: contain;
-    width: 20px;
-    height: 20px;
+    width: 1.5vw;
+    height: 3vh;
 }
 .text-recomand{
     width: 30%;
