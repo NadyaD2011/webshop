@@ -4,10 +4,6 @@ body{
 .site{
     margin: 1vh 5vw;
 }
-.header-logo{
-    display: flex;
-    align-items: center;
-}
 .name-site{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
@@ -35,7 +31,8 @@ a {
 }
 .header-logo{
     border-bottom: solid 0.4vh #ada8a8;
-    margin-bottom: 2.5vh;
+    display: flex;
+    align-items: center;
 }
 .bin{
     margin-right: 1vw;
